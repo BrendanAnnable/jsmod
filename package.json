@@ -1,6 +1,6 @@
 {
   "name": "@brendanannable/jsmod",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An AST-based JavaScript refactoring tool.",
   "main": "lib/index.js",
   "files": [
