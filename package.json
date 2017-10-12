@@ -7,7 +7,6 @@
     "lib"
   ],
   "scripts": {
-    "install": "npm-git install",
     "prepublish": "npm run build",
     "build": "npm run clean && babel src/ --out-dir lib/ --ignore \"**/*_test.js\"",
     "clean": "rimraf lib/",
@@ -33,16 +32,13 @@
     "sinon": "^1.17.7"
   },
   "dependencies": {
+    "ast-types": "^0.9.14",
+    "baobab": "^2.5.0",
     "bluebird": "^3.4.7",
     "glob": "^7.1.1",
     "immutable": "^3.8.1",
     "mkdirp": "^0.5.1",
-    "npm-git-install": "^0.2.0",
-    "pegjs": "^0.10.0"
-  },
-  "gitDependencies": {
-    "ast-types": "git@github.com:BrendanAnnable/ast-types.git#patched",
-    "baobab": "git@github.com:BrendanAnnable/baobab.git#copy-descriptors",
-    "recast": "git@github.com:BrendanAnnable/recast.git#patched"
+    "pegjs": "^0.10.0",
+    "recast": "^0.12.7"
   }
 }
