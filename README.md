@@ -1,4 +1,4 @@
-# JSMod [![Build Status](https://travis-ci.com/BrendanAnnable/jsmod.svg?token=wKbruTw5LY4t3eSFssqK&branch=master)](https://travis-ci.com/BrendanAnnable/jsmod)
+# JSMod [![Build Status](https://travis-ci.org/BrendanAnnable/jsmod.svg?branch=master)](https://travis-ci.org/BrendanAnnable/jsmod)
 An AST-based JavaScript refactoring tool. The guiding philosophy behind jsmod is that traversing and manipulating an [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) should be as familiar as traversing and manipulating the DOM tree. Heavily influenced by [jQuery](http://api.jquery.com/) and [jscodeshift](https://github.com/facebook/jscodeshift), JSMod features a powerful CSS-like selector engine alongside a chainable API for traversal and manipulation.
 
 ## Use case
